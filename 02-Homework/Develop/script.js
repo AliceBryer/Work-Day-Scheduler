@@ -6,7 +6,7 @@ $(document).ready(function () {
     let currentHour = moment().format("HH");
   
     // Button function to clear local storage and clear contents
-    $("#clearFieldsBtn").click(function (event) {
+    $("#clearBtn").click(function (event) {
       event.preventDefault;
       $("textarea").val("");
       localStorage.clear();
