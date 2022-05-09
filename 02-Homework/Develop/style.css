@@ -4,6 +4,10 @@ body {
   line-height: 1;
 }
 
+.container {
+  max-width:1024px;
+}
+
 textarea {
   background: transparent;
   border: none;
@@ -21,8 +25,13 @@ textarea {
   border-bottom: 10px solid black;
 }
 
+#clearBtn {
+  margin-top:10px;
+}
+
 .description {
   white-space: pre-wrap;
+  font-weight:600;
 }
 
 .time-block {
